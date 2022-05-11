@@ -8,6 +8,11 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
 #main-header{
     padding-left: 20px;
     height: 100px;
@@ -24,19 +29,20 @@ body{
 
 h1{
     display: inline-block;
-    
     font-size: 50px;
     font-weight: 800;
 }
 
 .container{
     width: 1200px;
-    /* height: 1000px; */
     background-color: white;
-    border-radius: 5px 5px 0 0;
     margin: auto;
     margin-bottom: 2px;
-    padding: 20px 40px;
+    padding: 20px 50px;
+}
+
+#buttons{
+    border-radius: 5px 5px 0 0;
 }
 
 button{
@@ -56,3 +62,69 @@ button{
     color: grey;
 }
 
+#list{
+    border-radius: 0 0 5px 5px;
+}
+
+.triangle{
+    font-size: 1.5rem;
+}
+    
+.list-title{
+    display: inline;
+    font-weight: 800;
+}
+
+.task{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.done{
+    font-size: 10px;
+    border-radius: 50%;
+    padding: 3px;
+    border: 1px solid green;
+    color: green;
+}
+
+.todo{
+    font-size: 10px;
+    border-radius: 50%;
+    padding: 3px;
+    border: 1px solid red;
+    color: red;
+}
+
+.list-link{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 12px;
+    }
+
+.editorial{
+    background-color: royalblue;
+}
+
+#q1-goals{
+    background-color: violet;
+}
+
+#recruiting{
+    background-color: green;
+}
+
+#mobile{
+    background-color: orange;
+}
+
+#website{
+    background-color: fuchsia;
+}
+
+#sales{
+    background-color: yellowgreen;
+}
